@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAP — Consultoría Adaptativa Pymes</title>
+<meta name="description" content="CAP, Consultoría Adaptativa Pymes. Acompañamos a pequeñas empresas, microempresas y startups con soluciones personalizadas y automatización inteligente con IA.">
+<link rel="icon" type="image/png" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=5">
+</head>
+<body>
+
+<!-- =========== NAV =========== -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#inicio" class="brand">
+      <img src="images/logo.png" alt="CAP Logo" class="brand-logo" style="object-fit: cover; border-radius: 0px">
+      <span class="brand-text">
+        <strong>CAP</strong>
+        <em>Consultoría Adaptativa Pymes</em>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#ia">IA</a>
+      <a href="#equipo">Equipo</a>
+      <a href="#casos">Casos</a>
+      <a href="#contacto" class="nav-cta">Agenda llamada</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menú" onclick="document.getElementById('navLinks').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- =========== HERO =========== -->
+<section id="inicio" class="hero">
+  <div class="hero-bg"></div>
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <span class="eyebrow">Consultoría Adaptativa Pymes</span>
+      <h1>Consultoría que <span class="accent">se adapta</span><br>a tu empresa.</h1>
+      <div class="hero-chips">
+        <span class="floating-chip">Automatización con IA</span>
+        <span class="floating-chip">Estrategia humana</span>
+        <span class="floating-chip">A medida</span>
+      </div>
+      <p class="lead">Acompañamos a pymes, microempresas y startups en su crecimiento con soluciones personalizadas y automatización inteligente — siempre con criterio humano detrás.</p>
+      <div class="hero-ctas">
+        <a href="#contacto" class="btn btn-primary">Agenda una llamada gratuita</a>
+        <a href="#servicios" class="btn btn-ghost">Cómo trabajamos →</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>+ tiempo</strong><span>tiempo ahorrado en tareas operativas</span></div>
+        <div><strong>100%</strong><span>soluciones personalizadas</span></div>
+        <div><strong>1:1</strong><span>acompañamiento humano real</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="logo-card">
+        <img src="images/logo.png" alt="CAP">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========== PARA QUIÉN =========== -->
+<section class="section" id="para-quien">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Para quién trabajamos</span>
+      <h2>Negocios con grandes ambiciones</h2>
+      <p>No somos una consultora de grandes corporaciones. Trabajamos con quienes más pueden ganar: empresas pequeñas que quieren crecer sin ahogarse en tareas operativas.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="card-icon">◢</div>
+        <h3>Pymes en crecimiento</h3>
+        <p>Equipos que ya funcionan pero necesitan orden, automatización y estrategia para escalar sin romperse.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">◆</div>
+        <h3>Microempresas</h3>
+        <p>Negocios pequeños donde cada hora cuenta. Les devolvemos tiempo y les damos herramientas de grandes empresas.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">▲</div>
+        <h3>Startups y nuevos negocios</h3>
+        <p>Proyectos recientes con potencial de crecer rápido. Montamos los cimientos para que el despegue sea sólido.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========== NOSOTROS =========== -->
+<section class="section section-dark" id="nosotros">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <span class="eyebrow light">Sobre nosotros</span>
+        <h2>Un equipo real, cercano, implicado con tu negocio.</h2>
+      </div>
+      <div class="about-text">
+        <p>Creemos que la consultoría de calidad no debería ser privilegio de grandes empresas. Por eso creamos <strong>CAP — Consultoría Adaptativa Pymes</strong>: un equipo humano que se sienta contigo, entiende tu negocio a fondo y diseña soluciones a tu medida.</p>
+        <p>Trabajamos en corto, con criterio estratégico y herramientas inteligentes que ahorran tiempo y dinero de verdad.</p>
+        <div class="values">
+          <div class="value"><span>01</span>Cercanía y compromiso real</div>
+          <div class="value"><span>02</span>Personalización total</div>
+          <div class="value"><span>03</span>Criterio estratégico</div>
+          <div class="value"><span>04</span>Resultados medibles</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========== SERVICIOS =========== -->
+<section class="section" id="servicios">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Servicios</span>
+      <h2>Todo lo que tu negocio necesita,<br>adaptado a tu realidad.</h2>
+      <p>Cada servicio se diseña a medida. Elige lo que necesitas hoy y escala cuando tu negocio lo pida.</p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service">
+        <div class="service-num">01</div>
+        <h3>Branding</h3>
+        <p>Identidad visual, naming y posicionamiento. Una marca que transmita quién eres y conecte con tu cliente ideal.</p>
+      </article>
+      <article class="service">
+        <div class="service-num">02</div>
+        <h3>Marketing Digital</h3>
+        <p>Estrategia, campañas y analítica. Llegar a quien te compra, medir lo que funciona, repetirlo.</p>
+      </article>
+      <article class="service">
+        <div class="service-num">03</div>
+        <h3>Creación de Contenido</h3>
+        <p>Textos, redes sociales, vídeo y SEO. Contenido útil y constante, sin depender de inspiración.</p>
+      </article>
+      <article class="service">
+        <div class="service-num">04</div>
+        <h3>Captación de Clientes</h3>
+        <p>Embudos, prospección y conversión. Un sistema predecible que te trae clientes todos los meses.</p>
+      </article>
+      <article class="service">
+        <div class="service-num">05</div>
+        <h3>Finanzas y Administración</h3>
+        <p>Contabilidad, facturación, nóminas y previsión. Menos errores, más control, mejores decisiones.</p>
+      </article>
+      <article class="service">
+        <div class="service-num">06</div>
+        <h3>Análisis de Datos</h3>
+        <p>Interpretamos tus datos para detectar patrones, anticipar tendencias y encontrar oportunidades.</p>
+      </article>
+      <article class="service">
+        <div class="service-num">07</div>
+        <h3>Recursos Humanos</h3>
+        <p>Selección, evaluación y gestión del talento. Equipos más productivos con procesos más justos.</p>
+      </article>
+      <article class="service featured">
+        <div class="service-num">08</div>
+        <h3>Automatización con IA</h3>
+        <p>La joya de la corona. Automatizamos lo tedioso para que tu equipo se dedique a lo importante.</p>
+        <a href="#ia" class="service-link">Descubre cómo →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- =========== IA =========== -->
+<section class="section section-ia" id="ia">
+  <div class="container">
+    <div class="section-head center light">
+      <span class="eyebrow light">Automatización con IA</span>
+      <h2>IA con criterio humano detrás.</h2>
+      <p>La inteligencia artificial automatiza lo repetitivo. Nuestro equipo aporta la estrategia, la supervisión y el sentido común para que la tecnología trabaje a favor de tu negocio.</p>
+    </div>
+
+    <div class="ia-philosophy">
+      <div class="phi">
+        <div class="phi-icon">◉</div>
+        <h4>Criterio estratégico</h4>
+        <p>No automatizamos por automatizar. Priorizamos lo que ahorra tiempo y dinero real.</p>
+      </div>
+      <div class="phi">
+        <div class="phi-icon">◎</div>
+        <h4>Supervisión humana</h4>
+        <p>Cada automatización pasa por revisión constante. La IA asiste, las personas deciden.</p>
+      </div>
+      <div class="phi">
+        <div class="phi-icon">◈</div>
+        <h4>Adaptación total</h4>
+        <p>Cada negocio es distinto. Adaptamos tamaño, complejidad y alcance a tu momento.</p>
+      </div>
+    </div>
+
+    <div class="ia-no">
+      <h4>Qué <u>no</u> hacemos</h4>
+      <p>No sustituimos a tu equipo. No complicamos lo que ya funciona. No añadimos automatizaciones inecesarias.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========== EQUIPO =========== -->
+<section class="section" id="equipo">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Nuestro equipo</span>
+      <h2>Personas reales detrás de cada proyecto.</h2>
+      <p>Un equipo humano, cercano y con experiencia. Nuestro equipo de ingenieros y especialistas en consultoría de Fiverr se encarga de ofrecer los mejores resultados.</p>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-photo"><img src="images/team-1.jpeg" alt="Wei/Juan"></div>
+        <h4>Wei/Juan</h4>
+        <span class="role">Contabilidad</span>
+        <p>"Me ocupo de la gestión contable y de los aspectos legales, con especialización en Derecho español."</p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo"><img src="images/team-2.jpeg" alt="Jun"></div>
+        <h4>Jun</h4>
+        <span class="role">Director de Marketing y Creación de contenido</span>
+        <p>"Creo en el marketing honesto: medir, ajustar y repetir lo que funciona."</p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo"><img src="images/team-3.jpeg" alt="Anaya"></div>
+        <h4>Anaya</h4>
+        <span class="role">Lead de Automatización e IA</span>
+        <p>"Automatizo lo aburrido para que tu equipo se dedique a lo que realmente importa: pensar y vender."</p>
+      </div>
+      <div class="team-card">
+        <div class="team-photo"><img src="images/team-4.jpeg" alt="Ishita"></div>
+        <h4>Ishita</h4>
+        <span class="role">Especialista en Datos y Excel</span>
+        <p>"Los números cuentan historias. Mi trabajo es traducirlas en decisiones que hagan crecer tu negocio."</p>
+      </div>
+    </div>
+
+    <div class="team-footer">
+      <p><strong>Equipo de Ayuda a la Consultoría junto a Fiverr.</strong> Colaboramos con una red de especialistas verificados para reforzar cualquier proyecto con el perfil exacto que necesita.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =========== CASOS =========== -->
+<section class="section section-soft" id="casos">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Casos y clientes</span>
+      <h2>Estamos preparando nuestros primeros casos.</h2>
+      <p>Próximamente publicaremos aquí resultados reales de los proyectos en los que estamos trabajando. Mientras tanto, si quieres ser uno de nuestros primeros casos de éxito, hablemos.</p>
+    </div>
+    <div class="cta-inline">
+      <a href="#contacto" class="btn btn-primary">Quiero ser un caso de éxito</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========== CONTACTO =========== -->
+<section class="section section-dark" id="contacto">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <span class="eyebrow light">Contacto</span>
+        <h2>Hablemos de tu negocio.</h2>
+        <p>Una primera llamada de 30 minutos, sin compromiso. Escuchamos, entendemos y te decimos si podemos ayudarte de verdad.</p>
+        <ul class="contact-list">
+          <li><span>✉</span>lluismoxo@gmail.com</li>
+          <li><span>☎</span>+34 660 380 592</li>
+          <li><span>◉</span>Barcelona · España</li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <label>Nombre
+          <input type="text" name="name" required placeholder="Tu nombre">
+        </label>
+        <label>Empresa
+          <input type="text" name="company" placeholder="Nombre de tu empresa">
+        </label>
+        <label>Email
+          <input type="email" name="email" required placeholder="tu@email.com">
+        </label>
+        <label>¿En qué podemos ayudarte?
+          <textarea name="message" rows="4" placeholder="Cuéntanos brevemente..."></textarea>
+        </label>
+        <!-- honeypot anti-spam (oculto para humanos) -->
+        <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;opacity:0;">
+        <button type="submit" class="btn btn-primary btn-full" id="contactSubmit">Enviar mensaje</button>
+        <div class="form-feedback" id="formFeedback" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- =========== FOOTER =========== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="CAP" style="border-radius: 0px">
+      <div>
+        <strong>CAP</strong>
+        <span>Consultoría Adaptativa Pymes</span>
+      </div>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h6>Navegación</h6>
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#ia">IA</a>
+      </div>
+      <div>
+        <h6>Empresa</h6>
+        <a href="#equipo">Equipo</a>
+        <a href="#casos">Casos</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div>
+        <h6>Legal</h6>
+        <a href="#">Aviso legal</a>
+        <a href="#">Privacidad</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© 2026 CAP — Consultoría Adaptativa Pymes. Todos los derechos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Scroll highlight
+window.addEventListener('scroll', () => {
+  document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 20);
+});
+// Cerrar nav móvil al hacer click
+document.querySelectorAll('#navLinks a').forEach(a => a.addEventListener('click', () => {
+  document.getElementById('navLinks').classList.remove('open');
+}));
+
+// ===== Formulario de contacto =====
+// Funciona en tres modos:
+//   1) Servido por el backend Node (http://localhost:3000) → POST /api/contact → BD
+//   2) Abierto como file:// (doble clic en index.html) → fallback mailto:
+//   3) Backend caído o error de red → fallback mailto:
+(function () {
+  const CONTACT_EMAIL = 'lluismoxo@gmail.com';
+  const form = document.getElementById('contactForm');
+  if (!form) return;
+  const btn = document.getElementById('contactSubmit');
+  const feedback = document.getElementById('formFeedback');
+
+  const setFeedback = (msg, type) => {
+    feedback.textContent = msg;
+    feedback.className = 'form-feedback ' + (type || '');
+  };
+
+  // Abre el cliente de email del usuario con el mensaje pre-rellenado.
+  // Sirve como fallback cuando no hay backend disponible.
+  const sendByMailto = (data) => {
+    const subject = `Nuevo contacto CAP — ${data.name}`;
+    const body =
+      `Nombre: ${data.name}\n` +
+      `Empresa: ${data.company || '(no indicada)'}\n` +
+      `Email: ${data.email}\n\n` +
+      `Mensaje:\n${data.message || '(sin mensaje)'}\n`;
+    const href =
+      'mailto:' + encodeURIComponent(CONTACT_EMAIL) +
+      '?subject=' + encodeURIComponent(subject) +
+      '&body=' + encodeURIComponent(body);
+    window.location.href = href;
+  };
+
+  const isFileProtocol = window.location.protocol === 'file:';
+
+  form.addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    setFeedback('', '');
+
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    // Validación cliente
+    if (!data.name || !data.name.trim()) {
+      setFeedback('Por favor, indícanos tu nombre.', 'error');
+      return;
+    }
+    if (!data.email || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(data.email)) {
+      setFeedback('Introduce un email válido.', 'error');
+      return;
+    }
+
+    // Modo file:// (doble clic) → no hay servidor, mailto directo.
+    if (isFileProtocol) {
+      setFeedback('Abriendo tu cliente de email para enviar el mensaje...', 'success');
+      sendByMailto(data);
+      return;
+    }
+
+    btn.disabled = true;
+    const originalLabel = btn.textContent;
+    btn.textContent = 'Enviando...';
+
+    try {
+      const endpoint = window.location.origin + '/api/contact';
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const json = await res.json().catch(() => ({}));
+
+      if (res.ok && json.ok) {
+        form.reset();
+        setFeedback('¡Gracias! Hemos recibido tu mensaje. Te contactaremos pronto.', 'success');
+      } else {
+        setFeedback(json.error || 'No se ha podido enviar. Abriendo tu cliente de email como alternativa...', 'error');
+        setTimeout(() => sendByMailto(data), 800);
+      }
+    } catch (err) {
+      setFeedback('No hay conexión con el servidor. Abriendo tu cliente de email como alternativa...', 'error');
+      setTimeout(() => sendByMailto(data), 800);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = originalLabel;
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
